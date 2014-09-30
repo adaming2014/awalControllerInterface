@@ -5,12 +5,12 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
-import fr.adaming.awal.entity.User;
+import fr.adaming.awal.entity.Reseller;
 
 /**
  *
  * @author INTI0217
  */
-public interface IControllerUser extends IController<User>{
+public interface IResellerController extends IController<Reseller>{
     
 }

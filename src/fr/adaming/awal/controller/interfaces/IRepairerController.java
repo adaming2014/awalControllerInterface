@@ -5,12 +5,12 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
-import fr.adaming.awal.entity.Devicerepair;
+import fr.adaming.awal.entity.Repairer;
 
 /**
  *
  * @author INTI0217
  */
-public interface IControllerDeviceRepair extends IController<Devicerepair>{
+public interface IRepairerController extends IController<Repairer>{
     
 }

@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Modelpackage;
  *
  * @author INTI0217
  */
-public interface IControllerModelPackage extends IController<Modelpackage>{
+public interface IModelPackageController extends IController<Modelpackage>{
     
 }

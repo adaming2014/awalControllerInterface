@@ -5,12 +5,12 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
-import fr.adaming.awal.entity.Repairer;
+import fr.adaming.awal.entity.Admin;
 
 /**
  *
  * @author INTI0217
  */
-public interface IControllerRepairer extends IController<Repairer>{
+public interface IAdminController extends IController<Admin>{
     
 }

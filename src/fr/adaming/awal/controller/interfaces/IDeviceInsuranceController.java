@@ -5,12 +5,12 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
-import fr.adaming.awal.entity.Admin;
+import fr.adaming.awal.entity.Deviceinsurance;
 
 /**
  *
  * @author INTI0217
  */
-public interface IControllerAdmin extends IController<Admin>{
+public interface IDeviceInsuranceController extends IController<Deviceinsurance>{
     
 }

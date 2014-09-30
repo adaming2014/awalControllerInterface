@@ -5,12 +5,12 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
-import fr.adaming.awal.entity.Client;
+import fr.adaming.awal.entity.Modele;
 
 /**
  *
  * @author INTI0217
  */
-public interface IControllerClient extends IController<Client>{
+public interface IModelController extends IController<Modele>{
     
 }

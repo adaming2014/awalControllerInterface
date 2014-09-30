@@ -5,12 +5,12 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
-import fr.adaming.awal.entity.Deviceinsurance;
+import fr.adaming.awal.entity.Client;
 
 /**
  *
  * @author INTI0217
  */
-public interface IControllerDeviceInsurance extends IController<Deviceinsurance>{
+public interface IClientController extends IController<Client>{
     
 }

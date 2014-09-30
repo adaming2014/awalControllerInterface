@@ -11,5 +11,5 @@ import fr.adaming.awal.entity.Device;
  *
  * @author INTI0217
  */
-public interface IControllerDevice extends IController<Device>{
+public interface IDeviceController extends IController<Device>{
 }
