@@ -5,12 +5,14 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
+import fr.adaming.awal.entity.Modele;
 import fr.adaming.awal.entity.Modelpackage;
+import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
 public interface IModelPackageController extends IController<Modelpackage>{
-    
+    public List<Modelpackage> getPackagesByModel(Modele model);
 }
