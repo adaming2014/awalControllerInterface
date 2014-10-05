@@ -5,12 +5,15 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
+import fr.adaming.awal.entity.Client;
 import fr.adaming.awal.entity.Devicerepair;
+import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
-public interface IDeviceRepairController extends IController<Devicerepair>{
-    
+public interface IDeviceRepairController extends IController<Devicerepair> {
+
+    List<Devicerepair> getDevicesRepairByClient(Client client);
 }
