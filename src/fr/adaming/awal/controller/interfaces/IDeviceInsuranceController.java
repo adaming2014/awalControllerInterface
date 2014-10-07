@@ -5,12 +5,14 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
+import fr.adaming.awal.entity.Device;
 import fr.adaming.awal.entity.Deviceinsurance;
+import java.util.List;
 
 /**
  *
  * @author INTI0217
  */
 public interface IDeviceInsuranceController extends IController<Deviceinsurance>{
-    
+    public List<Deviceinsurance> getDevicesInsuranceByClient(Device device);
 }
