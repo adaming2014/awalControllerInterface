@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IDeviceRepairController extends IController<Devicerepair> {
+public interface IDeviceRepairController extends IController<Devicerepair, Integer> {
 
     List<Devicerepair> getDevicesRepairByClient(Client client);
 }

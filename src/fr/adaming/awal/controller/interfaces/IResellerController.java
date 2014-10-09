@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Reseller;
  *
  * @author INTI0217
  */
-public interface IResellerController extends IController<Reseller>{
-    
+public interface IResellerController extends IController<Reseller, Integer> {
+
 }

@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Admin;
  *
  * @author INTI0217
  */
-public interface IAdminController extends IController<Admin>{
-    
+public interface IAdminController extends IController<Admin, Integer> {
+
 }

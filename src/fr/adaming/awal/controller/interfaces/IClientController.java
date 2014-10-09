@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Client;
  *
  * @author INTI0217
  */
-public interface IClientController extends IController<Client>{
+public interface IClientController extends IController<Client, Integer>{
     Client getClientByMail(String mail);
 }

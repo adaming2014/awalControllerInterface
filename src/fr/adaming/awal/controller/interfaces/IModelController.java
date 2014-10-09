@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Modele;
  *
  * @author INTI0217
  */
-public interface IModelController extends IController<Modele>{
-    
+public interface IModelController extends IController<Modele, Integer> {
+
 }

@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Repairer;
  *
  * @author INTI0217
  */
-public interface IRepairerController extends IController<Repairer>{
-    
+public interface IRepairerController extends IController<Repairer, Integer> {
+
 }

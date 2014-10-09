@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author INTI0227
  */
-public interface IDeviceinsurancemodelController extends IController<Deviceinsurancemodel>{
+public interface IDeviceinsurancemodelController extends IController<Deviceinsurancemodel, Integer> {
+
     List<Deviceinsurancemodel> getDeviceInsuranceModelsByModel(Modele modele);
 }

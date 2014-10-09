@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IModelPackageController extends IController<Modelpackage>{
+public interface IModelPackageController extends IController<Modelpackage, Integer> {
+
     public List<Modelpackage> getPackagesByModel(Modele model);
 }

@@ -5,23 +5,27 @@
  */
 package fr.adaming.awal.controller.interfaces;
 
+import fr.adaming.awal.entity.interfaces.IEntity;
+import java.io.Serializable;
 import java.util.List;
 
 /**
  *
  * @author INTI0217
+ * @param <T>
+ * @param <I>
  */
-public interface IController<T> {
+public interface IController<T extends IEntity<I>, I extends Serializable> {
 
     List<T> getAll();
 
-    boolean create(T address);
+    boolean create(final T address);
 
-    boolean update(T address);
+    boolean update(final T address);
 
-    boolean delete(T address);
+    boolean delete(final T address);
 
-    boolean delete(int id);
+    boolean delete(final I id);
 
-    T getById(int id);
+    T getById(final I id);
 }

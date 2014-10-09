@@ -13,6 +13,7 @@ import java.util.List;
  *
  * @author INTI0217
  */
-public interface IDeviceController extends IController<Device>{
+public interface IDeviceController extends IController<Device, Integer> {
+
     List<Device> getDevicesByClient(Client client);
 }

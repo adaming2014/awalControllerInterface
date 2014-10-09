@@ -11,7 +11,7 @@ import fr.adaming.awal.entity.User;
  *
  * @author INTI0217
  */
-public interface IUserController extends IController<User> {
+public interface IUserController extends IController<User, Integer> {
 
     User getByEmail(final String email);
 }

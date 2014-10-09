@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Firm;
  *
  * @author INTI0217
  */
-public interface IFirmController extends IController<Firm>{
-    
+public interface IFirmController extends IController<Firm, Integer> {
+
 }

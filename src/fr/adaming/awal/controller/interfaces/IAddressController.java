@@ -11,6 +11,6 @@ import fr.adaming.awal.entity.Address;
  *
  * @author INTI0227
  */
-public interface IAddressController extends IController<Address>{
+public interface IAddressController extends IController<Address, Integer>{
     
 }
