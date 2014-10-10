@@ -6,6 +6,7 @@
 package fr.adaming.awal.controller.interfaces;
 
 import fr.adaming.awal.entity.User;
+import fr.adaming.awal.entity.interfaces.IUser;
 
 /**
  *
@@ -14,4 +15,5 @@ import fr.adaming.awal.entity.User;
 public interface IUserController extends IController<User, Integer> {
 
     User getByEmail(final String email);
+    IUser getUserTypeByUserId(Integer id);
 }
