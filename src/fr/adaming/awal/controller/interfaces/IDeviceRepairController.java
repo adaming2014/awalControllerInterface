@@ -7,6 +7,7 @@ package fr.adaming.awal.controller.interfaces;
 
 import fr.adaming.awal.entity.Client;
 import fr.adaming.awal.entity.Devicerepair;
+import fr.adaming.awal.entity.Repairer;
 import java.util.List;
 
 /**
@@ -16,6 +17,8 @@ import java.util.List;
 public interface IDeviceRepairController extends IController<Devicerepair, Integer> {
 
     public List<Devicerepair> getDevicesRepairByClient(final Client client);
+
+    public List<Devicerepair> getDevicesRepairByRepairer(final Repairer repairer);
 
     public void createDeviceRepair(final Devicerepair entity) throws PackageAlreadyPresentException;
 
