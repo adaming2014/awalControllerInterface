@@ -19,11 +19,11 @@ public interface IController<T extends IEntity<I>, I extends Serializable> {
 
     List<T> getAll();
 
-    boolean create(final T address);
+    boolean create(final T entity);
 
-    boolean update(final T address);
+    boolean update(final T entity);
 
-    boolean delete(final T address);
+    boolean delete(final T entity);
 
     boolean delete(final I id);
 
