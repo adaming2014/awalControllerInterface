@@ -6,6 +6,8 @@
 package fr.adaming.awal.controller.interfaces;
 
 import fr.adaming.awal.entity.Client;
+import fr.adaming.awal.entity.Firm;
+import java.util.List;
 
 /**
  *
@@ -13,4 +15,5 @@ import fr.adaming.awal.entity.Client;
  */
 public interface IClientController extends IController<Client, Integer>{
     Client getClientByMail(String mail);
+    public List<Client> getClientsByFirm(Firm firm);
 }
