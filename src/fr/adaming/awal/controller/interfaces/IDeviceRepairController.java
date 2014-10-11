@@ -22,6 +22,12 @@ public interface IDeviceRepairController extends IController<Devicerepair, Integ
 
     public void createDeviceRepair(final Devicerepair entity) throws PackageAlreadyPresentException;
 
+    public void setRepairingState(final Devicerepair devicerepair);
+
+    public void setRepairedState(final Devicerepair devicerepair);
+
+    public void setClosedState(final Devicerepair devicerepair);
+
     public class PackageAlreadyPresentException extends Exception {
 
     }
